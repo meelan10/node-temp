@@ -7,11 +7,13 @@
   "type": "commonjs",
   "main": "alternative.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js"
   },
   "keywords": [],
   "dependencies": {
-    "bootstrap": "^5.3.9",
     "lodash": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
